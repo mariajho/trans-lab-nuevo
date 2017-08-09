@@ -1,0 +1,75 @@
+body{
+	background-color: #3e3f41;
+	font-family: 'Oswald', sans-serif;
+	height: 100vh;
+}
+
+.logo img{
+	width: 60%;
+	height: auto;
+	text-align: center;
+	margin-left: 20%;
+	margin-top:30%;
+	
+}
+h1{
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	color: #f6a800;
+	padding-bottom: 10%;
+
+}
+.formulario{
+	text-align: center;
+	margin-top: 7vh;
+	
+}
+input{
+	text-align: center;
+	margin: auto;
+	display: block;
+	line-height: 30px;
+	width: 70%;
+}
+
+.btn-default {
+	color: #3e3f41;
+	background-color: #f6a800;
+	border-radius: 0;
+	border: none;
+	line-height: 30px;
+}
+
+
+.form input, .form button{
+	line-height: 30px;
+	text-align: center;
+	margin: auto;
+	display: block;
+	width: 75%;
+}
+
+.olvidaste{
+	margin-left: 13%;
+	margin-top: 10%;
+	color: white;
+}
+
+.palabra-blanca{
+	color: white;
+	text-align: center;
+}
+
+.palabra-amarilla{
+	color: #f6a800;
+	text-align: center;
+}
+
+.footer{
+	margin-top:10%;
+	text-align: center;
+}
+
+
+
