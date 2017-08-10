@@ -1,0 +1,48 @@
+body{
+	background-color:#d4d7d8;
+	font-family: 'Oswald', sans-serif;
+	height: 100vh;
+}
+
+h3{
+	color: #f2f2f2;
+}
+
+#segundo-menu{
+	margin-top: 40%;
+}
+
+.form button{
+	line-height: 30px;
+	text-align: center;
+	margin: auto;
+	display: block;
+	width: 80%;
+	background-color: #f6a800;
+
+}
+
+#saldo{
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#tarifa{
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#perfil{
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#preguntas{
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+}
+

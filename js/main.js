@@ -28,7 +28,7 @@ $(document).ready(function(){
 
 		else{
 			e.preventDefault();
-			window.location = "index-menu.html";
+			window.location = "index-dos-menu.html";
 
 		}
 	});
