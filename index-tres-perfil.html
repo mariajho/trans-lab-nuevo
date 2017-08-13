@@ -35,7 +35,7 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li id="saldomenu"><a href="#">Ver saldo</a></li>
 						<li id="menucalculo"><a href="#">Calcular Tarifa</a></li>
-						<li id="uneperfil"><a href="#">Perfil</a></li>
+						<li id="perfil"><a href="#">Perfil</a></li>
 						<li id="press" ><a href="#">Preguntas Frecuentes</a></li>
 						<li id="home"><a href="#">Home</a></li>
 					</ul>
@@ -60,7 +60,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 text-center">
 					<div class="email">
-					<input type="text" id="tarjeta" placeholder="">
+					<button class="btn btn-default" type="button" id="correo"></button>
 					</div>
 				</div>
 			</div>
@@ -70,27 +70,24 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 text-center">
 					<div class="numero">
-						<h6 id="numero">Numero tarjeta</h6><hr>
-					</div>
-					<!--boton-->
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-							<div class="boton">
-								<button id="boton">AGREGAR TARJETA</button>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 center-block">
-							<input type="text" id="numeros" placeholder="">
-							<input type="text" id="dos" placeholder="">
-							<input type="text" id="tres" placeholder="">
-							<input type="text" id="cuatro" placeholder="">
-						</div>
+						<input type="number" name="tarjeta" id="tarjetas" placeholder="Numero de Tarjeta">
 					</div>
 				</div>
 			</div>
+			<!--boton-->
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+					<div class="boton">
+						<button class="btn btn-default" type="button" id="agregar">AGREGAR TARJETA</button>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 center-block" id="guardartarjetas">
+				</div>
+			</div>
 		</div>
+	</section>
 
 
 

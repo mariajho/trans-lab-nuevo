@@ -7,12 +7,13 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <!-- Fontawesome -->
 <script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rubik:400,700,900" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/style-dos.css">
+<link rel="stylesheet" type="text/css" href="css/style-seis.css">
 
 </head>
 <body>
@@ -34,7 +35,7 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li id="saldomenu"><a href="#">Ver saldo</a></li>
 						<li id="menucalculo"><a href="#">Calcular Tarifa</a></li>
-						<li id="uneperfil"><a href="#">Perfil</a></li>
+						<li id="perfil"><a href="#">Perfil</a></li>
 						<li id="press" ><a href="#">Preguntas Frecuentes</a></li>
 						<li id="home"><a href="#">Home</a></li>
 					</ul>
@@ -43,32 +44,34 @@
 		</nav>
 	</div>
 
-	<section id="segundo-menu">
-		<div class="container-fluid">
+	<section class="calcular">
+		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form">
-					<button class="btn btn-default" id="saldo"><a href=""></a>VER SALDO</button>
+				<div class="col-sm-12 col-xs-12 text-center">
+					<div>
+						<input type="text" name="tarjeta" id="tarjeta3" placeholder="Numero de Tarjeta">
+					</div>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form">
-					<button class="btn btn-default" id="tarifa"><a href=""></a>CALCULAR TARIFA</button>
+	
+				<div class="col-sm-6 col-xs-6 text-center" id="tar">
+					<div class="col-sm-6 col-xs-6 text-center" id="mueve1">
+						<label for="">Tarifa</label>
+							<div>
+								<input type="number" name="" id="imtarifa" placeholder="Tarifa">
+							</div>
+					</div>
+					<div class="col-sm-6 col-xs-6 text-center" id="mueve2">
+						<label for="">Tarjeta</label>
+						<div>
+							<input type="number" name="" id="tarjeta5" placeholder="Tarjeta">
+						</div>
+					</div>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form">
-					<button class="btn btn-default" id="perfil"><a href=""></a>PERFIL</button>
+				<div class="col-sm-12 col-xs-12 text-center">
+					<button class="btn btn-default" type="button" id="saldo3">CALCULAR</button>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form">
-					<button class="btn btn-default" id="preguntas"><a href=""></a>PREGUNTAS FRECUENTES</button>
+				<div class="col-sm-12 col-xs-12 text-center" id="calculasaldo">
 				</div>
 			</div>
 		</div>
-	
-
-
-<!-- jQuery-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<!-- Bootstrap-->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="js/main-dos.js" ></script>
-
-</body>
-</html>
-
+	</section>
