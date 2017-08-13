@@ -1,0 +1,38 @@
+body{
+	font-family: 'Oswald', sans-serif;
+	height: 100vh;
+}
+
+h3{
+	color: #f2f2f2;
+	width: 70%;
+	margin-top: 10%;
+	margin-left: 15%;
+}
+
+.preguntas-frecuentes{
+	background-color: #f6a800;
+	height: 30vh;
+	margin-top: -6%;
+}
+
+.respuestas{
+	background-color: #D4D7D8;
+	height: 70vh;
+
+}
+
+.btn-uno{
+    width:100%;
+    text-align: center;
+    border:none;
+    margin-top:10%;
+    padding:6px;
+}
+
+.btn-dos{
+	width:100%;
+    text-align: center;
+    border:none;
+    padding:6px;
+}
