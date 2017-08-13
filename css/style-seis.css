@@ -1,0 +1,31 @@
+body{
+	background-color:#d4d7d8;
+	font-family: 'Oswald', sans-serif;
+	height: 100vh;
+}
+
+h3{
+	color: #f2f2f2;
+}
+
+input{
+	margin-top: 40px;
+	padding: 6px 40px;
+}
+
+label{
+	margin-top: 80%;
+	margin-left: 40%;
+	display: inline-flex;
+}
+
+#saldo3{
+	background-color:#f6a800;
+	color: white;
+	margin-top: 10%;
+	padding:9px 60px;
+	font-size: 20px;
+}
+
+
+
