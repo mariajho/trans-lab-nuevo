@@ -11,6 +11,12 @@ h3{
 	color: #f2f2f2;
 }
 
+#correo{
+	padding: 20px 140px;
+    margin-bottom: 0;
+    margin-top: 10%;
+}
+
 #tres-perfil{
 	background-color:#f6a800;
 	height: 30vh;
@@ -28,27 +34,16 @@ img{
 	height: 60vh;
 }
 
-input{
-	padding: 6px 58px;
-	border:none;
-	margin-top:4%;
+#tarjetas{
+	margin-top: 10%;
+	padding: 8px 50px;
 }
 
-#numero{
-	color: black;
-	margin-top: 8%;
-	margin-left: -11%;
-	
-}
-
-hr{
-	margin-top:-1%;
-	width: 85%;
-}
-
-#boton{
+#agregar{
 	background-color:#f6a800;
 	border: none;
 	color: white;
-	padding: 8px 75px;
+	padding: 10px 70px;
+	font-size: 18px;
+	margin-top: 5%;
 }

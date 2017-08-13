@@ -1,0 +1,23 @@
+body{
+	background-color:#d4d7d8;
+	font-family: 'Oswald', sans-serif;
+	height: 100vh;
+}
+
+h3{
+	color: #f2f2f2;
+}
+
+#saldo2{
+	background-color:#f6a800;
+	color: white;
+	margin-top: 25%;
+	padding: 9px 70px;
+	font-size: 20px;
+}
+
+input{
+	margin-top: 40px;
+	padding: 6px 40px;
+}
+
